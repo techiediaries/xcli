@@ -1,7 +1,10 @@
 {
-  "name": "@devcli/cli",
+  "name": "@xcli/cli",
   "version": "1.0.0-alpha.0",
   "description": "Command line interface for rapid front-end development",
+  "bin": {
+    "xcli": "bin/xcli.js"
+  },
   "files": [
     "bin",
     "lib"
@@ -11,7 +14,7 @@
     "url": "git+https://github.com/techiediaries/developer-cli.git"
   },
   "keywords": [
-    "vue",
+    "frontend",
     "cli"
   ],
   "author": "Ahmed Bouchefra",
